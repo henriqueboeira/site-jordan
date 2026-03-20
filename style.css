@@ -1,21 +1,40 @@
 @charset "UTF-8";
 
-*{
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --brand-color: #7ca2f4;
+
+  --dark: #121214;
+
+  --gray: #f3f7ff;
+  --white: #ffffff;
+}
+
+* {
     padding: 0px;
     margin: 0px;
+
 }
 
-header{
-    background-image: url(image/michael-jordan.jpeg.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size:cover ;
-    width: 100%;
-    height: 250px;
-    display: flex;
-    justify-content: space-between;
+html,body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Archivo", sans-serif;
 }
 
-img{
+header {
+    height: 450px;
+    background: url(image/michael-jordan-phone.jpeg.png) no-repeat center center/cover;
+}
 
+#icon{
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    width: 40px;
+}
+
+#icon{
+    color: white;
 }
