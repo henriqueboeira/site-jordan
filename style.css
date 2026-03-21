@@ -14,27 +14,4 @@
 * {
     padding: 0px;
     margin: 0px;
-
-}
-
-html,body {
-    width: 100vw;
-    height: 100vh;
-    font-family: "Archivo", sans-serif;
-}
-
-header {
-    height: 450px;
-    background: url(image/michael-jordan-phone.jpeg.png) no-repeat center center/cover;
-}
-
-#icon{
-    position: absolute;
-    top: 19%;
-    left: 10%;
-    width: 40px;
-}
-
-#icon{
-    color: white;
 }
