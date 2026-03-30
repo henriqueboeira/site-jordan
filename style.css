@@ -16,26 +16,42 @@
     margin: 0px;
 }
 
-header{
-  background: url(image/michael-jordan-pc.jpeg.png) no-repeat center center/cover;
+#frete{
   width: 100%;
-  height: 40vh;
-  display: none;
+  display: flex;
+  text-align: center;
+  height: 5vh;
+  background-color: yellow;
+  font: 500 20px "Archivo", sans-serif ;
+}
+
+#frete p{
+  line-height: 5vh;
+  margin: auto;
+  width: 100%;
+}
+
+
+
+header{
+  background: url(image/michael-jordan-pc.jpeg.png) no-repeat center/cover;
+  height: 400px;
 }
 
 main{
   width: 90%;
   margin: auto;
-  background-color: violet;
 }
 
 main > h1{
-  font-family: "Archivo", sans-serif;
+  font: 500 2em "Archivo", sans-serif;
   text-align: center;
   margin: 10px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
 }
 
 main > p{
+  white-space: pre-line;
   width: 500px;
   font: 1.3em "Archivo", sans-serif;
   text-align: center;
@@ -45,25 +61,50 @@ main > p{
 section{
   display: flex;
   flex-flow: row wrap;
-  width: 84%;
-  background-color: yellowgreen;
+  width: 85%;
+  
   margin: auto;
   justify-content: center;
 }
 
 article{
-  width: 350px;
+  width: 395px;
   margin: 10px;
   
 }
 
 .jordan{
-  width: 350px;
+  position: relative;
+  width: 100%;
   height: 200px;
   background-color: var(--gray);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.219) ;
 }
 
 article  img{
-  width: 250px;
-  transform: translate(20%, 20%);
+  width: 230px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description{
+  font: 500 1.1em "Archivo", sans-serif;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.ns{
+  font: 500 0.9em "Archivo", sans-serif;
+  color: var(--brand-color);
+  text-align: left;
+  margin-top: 5px;
+}
+
+.price{
+  font: 600 1.2em  arial, italic;
+  text-align: left;
+  margin-top: 40px;
 }
