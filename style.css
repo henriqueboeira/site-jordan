@@ -37,7 +37,7 @@ body {
 
 header {
   position: relative;
-  background: url(image/michael-jordan-tablet.jpeg.png) no-repeat top left/cover;
+  background: url(image/michael-jordan-tablet.jpeg.png) no-repeat center top/cover;
   min-height: 400px;
 }
 
@@ -52,7 +52,7 @@ header p {
   background-color: rgba(240, 248, 255, 0);
   color: var(--white);
   top: clamp(15%, 50%, 25%);
-  left: clamp(2%, 25%, 20%);
+  left: clamp(2%, 10%, 10%);
 }
 
 #container div {
@@ -68,7 +68,6 @@ header p {
 #container h1 {
   margin-left: 5px;
   margin-top: 7px;
-  align-self: flex-end;
   color: white;
   font-weight: 300;
   font-size: clamp(.9em, 3vw, 1.1em);
